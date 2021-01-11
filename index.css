@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.outer-container {
+    width:1200px;
+    height:420px;
+    background-color: lightgrey;
+    margin:0 auto;
+    justify-content: center;
+    padding:0;
+    border-radius: 25%;
+    border-bottom: 8px solid grey;
+    box-shadow: 2px 4px 4px 0px black;
+    -webkit-box-shadow: 2px 4px 4px 0px black; 
+box-shadow: 2px 4px 4px 0px black;
+    }
+
+
+    * {
+        padding: 0;
+        font-family: Roboto;
+        color:white;
+        }
+
+        body {
+            justify-content: center;
+            margin-top:100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url(pics/wood.jpg);
+        }
+
+
+        /* FIRST ROW OF BUTTONS*/
+    
+    .first-row {
+        position: absolute;
+        
+        display: flex;
+        margin-top: 40px;
+        margin-left:60px;
+        margin-right:5px;
+        padding:10px 0 0 10px;
+    }
+
+.btn {
+    width:60px;
+    height: 25px;
+    border-radius: 10%;
+    background: black;
+    margin-right: 10px;
+    cursor: pointer;
+    border:white 2px solid;
+    color:white;
+    font-size: 11px;
+    border-bottom:2px solid grey;
+}
+
+    .icons {
+        width:10px;
+        height:15px;
+        margin-top:3px;
+    }
+
+    .icon2 {
+        margin-top: 3px;
+        width:16px;
+        height:15px;
+    }
+
+        /* SECOND ROW OF BUTTONS*/
+
+    .second-row {
+        position: absolute;
+        margin-top:75px;
+        margin-left: 50px;
+        display: flex;
+        padding: 8px 0 0 10px;
+    }
+
+    #btn2 {
+    border:white 2px solid;
+    width:30px;
+    background: black;
+    height: 45px;
+    border-radius: 10%;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+    }
+.btn2 {
+    width:55px;
+    height:45px;
+    background: black;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+
+.backspace-button {
+    display: block;
+    margin-top: 15px;
+    margin-left:110px;
+}
+
+
+
+
+
+#btn3 {
+    width:200px;
+    background: black;
+    height:45px;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+#backspace-icon{
+width:50px;
+height:15px;
+margin-top:3px;
+}
+
+        /* THIRD ROW OF BUTTONS*/
+
+
+.third-row {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 60px;
+    display: flex;
+    padding: 8px 0 0 10px;
+}
+
+
+.tab-button {
+    display: block;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+#btn4 {
+    background: black;
+    width:100px;
+    height:45px;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+
+        /* FOURTH ROW OF BUTTONS*/
+
+.fourth-row {
+    position: absolute;
+    margin-top:185px;
+    margin-left:70px;
+    display: flex;
+    padding: 8px 0 0 10px;
+}
+
+.capslock-button {
+    width:70px;
+display: block;
+margin-top: 15px;
+margin-left: 5px;
+}
+
+
+#btn5 {
+    background: black;
+    width:120px;
+    height:45px;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+
+
+        /* FIFTH ROW OF BUTTONS*/
+
+.fifth-row {
+    position:absolute;
+    margin-top:240px;
+    margin-left:40px;
+    display: flex;
+    padding: 8px 0 0 10px;
+}
+
+.enter-button {
+    display: block;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#btn6 {
+    background: black;
+    width:150px;
+    height:45px;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+
+.shift {
+    display: block;
+    margin-top:15px;
+    margin-right: 100px;
+}
+
+.shift2 {
+display: block;
+margin-top: 15px;
+margin-left:100px;
+}
+
+#btn7 {
+    background: black;
+    width:55px;
+    height:45px;
+    border-radius: 10%;
+    border:white 2px solid;
+    margin-right: 10px;
+    cursor: pointer;
+    border-bottom:2px solid grey;
+}
+
+        /* SIXTH ROW OF BUTTONS*/
+
+.sixth-row {
+    position:absolute;
+   margin-top:295px;
+   margin-left: 80px;
+    display: flex;
+    padding: 8px 0 0 10px;
+}
+
+#btn8 {
+    background: black;
+    width:400px;
+    height:45px;
+    border-radius: 5%;
+    border:white 2px solid;
+    margin-right: 10px;
+    border-bottom:2px solid grey;
+    cursor: pointer;
+}
+
+.space-button {
+    display: block;
+    margin-top:18px;
+}
